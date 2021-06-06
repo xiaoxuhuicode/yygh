@@ -1,0 +1,161 @@
+2021-06-05 10:52:41.792 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 1668 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 10:52:41.797 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 10:52:41.865 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 10:52:41.866 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 10:52:43.977 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 10:52:43.989 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 10:52:43.990 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 10:52:43.991 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 10:52:44.107 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 10:52:44.108 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2240 ms
+2021-06-05 10:52:47.031 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 10:52:47.176 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 10:52:47.348 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 10:52:47.384 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 10:52:47.386 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 10:52:47.406 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 10:52:47.440 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 10:52:47.640 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 10:52:47.654 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 7.504 seconds (JVM running for 11.296)
+2021-06-05 10:52:47.656 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 10:52:47.659 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 14:49:08.675 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 7616 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 14:49:08.679 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 14:49:08.744 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 14:49:08.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 14:49:11.362 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 14:49:11.380 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 14:49:11.381 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 14:49:11.381 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 14:49:11.524 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 14:49:11.524 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2778 ms
+2021-06-05 14:49:13.850 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 14:49:13.990 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 14:49:14.171 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 14:49:14.206 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 14:49:14.208 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 14:49:14.228 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 14:49:14.269 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 14:49:14.473 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 14:49:14.486 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 6.849 seconds (JVM running for 10.199)
+2021-06-05 14:49:14.488 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 14:49:14.492 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 14:56:34.250 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-05 14:56:34.258 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-05 14:56:34.301 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+2021-06-05 15:20:58.104 [http-nio-8201-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-06-05 15:20:58.648 [http-nio-8201-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-06-05 15:23:48.703 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 16232 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 15:23:48.707 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 15:23:48.839 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 15:23:48.840 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 15:23:51.273 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 15:23:51.289 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:23:51.291 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 15:23:51.291 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 15:23:51.448 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 15:23:51.448 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2607 ms
+2021-06-05 15:23:53.976 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 15:23:54.143 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 15:23:54.400 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:23:54.441 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 15:23:54.442 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 15:23:54.466 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 15:23:54.503 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:23:54.626 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-05 15:23:54.628 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-05 15:23:54.630 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-06-05 15:23:54.852 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:23:54.883 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 7.219 seconds (JVM running for 9.105)
+2021-06-05 15:23:54.891 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 15:23:54.898 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 15:24:03.696 [http-nio-8201-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-06-05 15:24:03.908 [http-nio-8201-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-06-05 15:31:56.145 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 9908 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 15:31:56.149 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 15:31:56.251 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 15:31:56.258 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 15:31:58.433 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 15:31:58.450 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:31:58.451 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 15:31:58.451 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 15:31:58.591 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 15:31:58.591 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2330 ms
+2021-06-05 15:32:17.610 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 16108 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 15:32:17.614 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 15:32:17.705 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 15:32:17.706 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 15:32:20.131 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 15:32:20.147 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:32:20.148 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 15:32:20.148 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 15:32:20.277 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 15:32:20.278 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2570 ms
+2021-06-05 15:32:22.420 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 15:32:22.557 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 15:32:22.910 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:32:22.931 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 15:32:22.933 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 15:32:22.957 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 15:32:22.998 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:32:23.266 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:32:23.278 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 6.578 seconds (JVM running for 12.602)
+2021-06-05 15:32:23.280 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 15:32:23.283 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 15:33:02.999 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-05 15:33:03.000 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-05 15:33:03.004 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-06-05 15:33:03.500 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-06-05 15:33:04.094 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-06-05 15:50:39.985 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 9428 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 15:50:39.989 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 15:50:40.112 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 15:50:40.112 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 15:50:42.864 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 15:50:42.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:50:42.883 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 15:50:42.884 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 15:50:43.256 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 15:50:43.256 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3138 ms
+2021-06-05 15:50:46.926 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 15:50:47.120 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 15:50:47.377 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 15:50:47.434 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 15:50:47.436 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 15:50:47.468 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 15:50:47.524 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:50:47.801 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 15:50:47.819 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 9.073 seconds (JVM running for 12.915)
+2021-06-05 15:50:47.821 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 15:50:47.824 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 16:00:21.035 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-05 16:00:21.045 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-05 16:00:21.074 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2021-06-05 16:00:21.433 [http-nio-8201-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-06-05 16:00:21.785 [http-nio-8201-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-06-05 19:23:38.155 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication using Java 1.8.0_131 on DESKTOP-6S18FC3 with PID 9580 (D:\pojectCode\尚医通\yygh_parent\service\service_hosp\target\classes started by Admin in D:\pojectCode\尚医通\yygh_parent)
+2021-06-05 19:23:38.182 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-06-05 19:23:38.287 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-05 19:23:38.287 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-05 19:23:47.609 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-06-05 19:23:47.623 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-06-05 19:23:47.624 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-05 19:23:47.624 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-05 19:23:47.756 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-05 19:23:47.756 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9467 ms
+2021-06-05 19:23:52.404 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-05 19:23:56.498 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-05 19:23:57.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-06-05 19:23:59.159 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-06-05 19:23:59.162 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-05 19:23:59.929 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-06-05 19:24:00.374 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 19:24:02.276 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-05 19:24:02.290 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 26.543 seconds (JVM running for 30.954)
+2021-06-05 19:24:02.292 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-05 19:24:02.295 [restartedMain] INFO  o.s.boot.availability.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-05 19:30:18.676 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-05 19:30:18.694 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-05 19:30:18.826 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 131 ms
+2021-06-05 19:50:04.671 [http-nio-8201-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-06-05 19:50:05.365 [http-nio-8201-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

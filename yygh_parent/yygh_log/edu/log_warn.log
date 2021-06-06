@@ -1,0 +1,25 @@
+2021-06-06 10:18:14.986 [http-nio-8201-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:19:06.299 [http-nio-8201-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:19:43.505 [http-nio-8201-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:19:44.893 [http-nio-8201-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:20:08.274 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:23:39.810 [http-nio-8201-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:25:07.746 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:28:08.384 [http-nio-8201-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:28:21.012 [http-nio-8201-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:30:30.705 [http-nio-8201-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:30:47.779 [http-nio-8201-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:30:51.201 [http-nio-8201-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:31:00.885 [http-nio-8201-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 10:31:08.507 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [YyghException{code=201, message=失败}]
+2021-06-06 19:39:13.279 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2021-06-06 19:46:10.860 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@702766f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.935 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@6394f960 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.943 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@284f3b3b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.954 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@7997b532 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.959 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@47ef1595 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.964 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@374abf1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.966 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@5233de47 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.969 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@1649df16 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.977 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@f383e13 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-06 19:46:10.981 [http-nio-8201-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@43b50855 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
