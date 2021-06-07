@@ -1,0 +1,36 @@
+2021-06-07 17:32:45.231 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hospitalRepository in com.atguigu.yygh.hosp.service.impl.HospitalServiceImpl required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
+2021-06-07 17:33:18.147 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hospitalRepository in com.atguigu.yygh.hosp.service.impl.HospitalServiceImpl required a bean named 'mongoTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'mongoTemplate' in your configuration.
+
