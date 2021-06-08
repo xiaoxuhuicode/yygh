@@ -23,7 +23,7 @@ public class DictController {
 
     //导入数据字典
     @PostMapping("importData")
-    public Result importDict(MultipartFile file){
+    public Result importDict(MultipartFile file) {
         dictService.importDictData(file);
         return Result.ok();
     }
@@ -38,9 +38,24 @@ public class DictController {
     //根据数据id查询子数据列表
     @ApiOperation(value = "根据数据id查询子数据列表")
     @GetMapping("findChildData/{id}")
-    public Result findChildData(@PathVariable Long id){
-      List<Dict> list=  dictService.findChildData(id);
-      return Result.ok(list);
+    public Result findChildData(@PathVariable Long id) {
+        List<Dict> list = dictService.findChildData(id);
+        return Result.ok(list);
+    }
+
+    //根据dictcode和value查询
+    @GetMapping("getName/{dictCode}/{value}")
+    public String getName(@PathVariable String dictCode,
+                          @PathVariable String value) {
+        String dictName = dictService.getDictName(dictCode, value);
+        return dictName;
+    }
+
+    //根据value查询
+    @GetMapping("getName/{value}")
+    public String getName(@PathVariable String value) {
+        String dictName = dictService.getDictName("", value);
+        return dictName;
     }
 
 }
