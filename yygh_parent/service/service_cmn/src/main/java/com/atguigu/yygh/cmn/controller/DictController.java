@@ -28,18 +28,25 @@ public class DictController {
         return Result.ok();
     }
 
-
     //导出数据字典接口
     @GetMapping("exportData")
     public void exportDict(HttpServletResponse response) {
         dictService.exportDictData(response);
     }
 
+    //根据dictCode获取下级节点
+    @ApiOperation(value = "根据dictCode获取下级节点")
+    @GetMapping("findByDictCode/{dictCode}")
+    public Result findByDictCode(@PathVariable String dictCode) {
+        List<Dict> list = dictService.findByDictCode(dictCode);
+        return Result.ok(list);
+    }
+
     //根据数据id查询子数据列表
     @ApiOperation(value = "根据数据id查询子数据列表")
     @GetMapping("findChildData/{id}")
     public Result findChildData(@PathVariable Long id) {
-        List<Dict> list = dictService.findChildData(id);
+        List<Dict> list = dictService.findChlidData(id);
         return Result.ok(list);
     }
 
@@ -47,15 +54,14 @@ public class DictController {
     @GetMapping("getName/{dictCode}/{value}")
     public String getName(@PathVariable String dictCode,
                           @PathVariable String value) {
-        String dictName = dictService.getDictName(dictCode, value);
+        String dictName = dictService.getDictName(dictCode,value);
         return dictName;
     }
 
     //根据value查询
     @GetMapping("getName/{value}")
     public String getName(@PathVariable String value) {
-        String dictName = dictService.getDictName("", value);
+        String dictName = dictService.getDictName("",value);
         return dictName;
     }
-
 }

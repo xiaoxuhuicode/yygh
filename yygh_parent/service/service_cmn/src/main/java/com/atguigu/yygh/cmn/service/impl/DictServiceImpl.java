@@ -24,6 +24,21 @@ import java.util.List;
 @Service
 public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements DictService {
 
+    //根据数据id查询子数据列表
+    @Override
+    //@Cacheable(value = "dict",keyGenerator = "keyGenerator")
+    public List<Dict> findChlidData(Long id) {
+        QueryWrapper<Dict> wrapper = new QueryWrapper<>();
+        wrapper.eq("parent_id", id);
+        List<Dict> dictList = baseMapper.selectList(wrapper);
+        //向list集合每个dict对象中设置hasChildren
+        for (Dict dict : dictList) {
+            Long dictId = dict.getId();
+            boolean isChild = this.isChildren(dictId);
+            dict.setHasChildren(isChild);
+        }
+        return dictList;
+    }
 
     @Override
     public void exportDictData(HttpServletResponse response) {
@@ -83,9 +98,19 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
         }
     }
 
+    //根据dictCode获取下级节点
+    @Override
+    public List<Dict> findByDictCode(String dictCode) {
+        //根据dictcode获取对应id
+        Dict dict = this.getDictByDictCode(dictCode);
+        //根据id获取子节点
+        List<Dict> chlidData = this.findChlidData(dict.getId());
+        return chlidData;
+    }
+
     private Dict getDictByDictCode(String dictCode) {
         QueryWrapper<Dict> wrapper = new QueryWrapper<>();
-        wrapper.eq("dict_code",dictCode);
+        wrapper.eq("dict_code", dictCode);
         Dict codeDict = baseMapper.selectOne(wrapper);
         return codeDict;
     }

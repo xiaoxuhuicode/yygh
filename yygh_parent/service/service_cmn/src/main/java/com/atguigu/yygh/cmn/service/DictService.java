@@ -18,4 +18,9 @@ public interface DictService extends IService<Dict> {
     void importDictData(MultipartFile file);
 
     String getDictName(String dictCode, String value);
+
+    //根据dictCode获取下级节点
+    List<Dict> findByDictCode(String dictCode);
+
+    List<Dict> findChlidData(Long id);
 }
