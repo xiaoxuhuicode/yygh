@@ -95,7 +95,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
         //根据大科室编号  bigcode 分组，获取每个大科室里面下级子科室
         Map<String, List<Department>> deparmentMap = departmentList.stream().collect(Collectors.groupingBy(Department::getBigcode));
-        //遍历map集合 deparmentMap
+        //遍历map集合 departmentMap
         for (Map.Entry<String, List<Department>> entry : deparmentMap.entrySet()) {
             //大科室编号
             String bigcode = entry.getKey();
@@ -122,6 +122,16 @@ public class DepartmentServiceImpl implements DepartmentService {
         }
         //返回
         return result;
+    }
+
+    //根据科室编号和医院编号查询科室名称
+    @Override
+    public String getDepName(String hoscode, String depcode) {
+        Department department = departmentRepository.getDepartmentByHoscodeAndDepcode(hoscode, depcode);
+        if(department != null) {
+            return department.getDepname();
+        }
+        return null;
     }
 
 }

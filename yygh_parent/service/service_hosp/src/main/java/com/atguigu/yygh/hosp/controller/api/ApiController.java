@@ -206,8 +206,11 @@ public class ApiController {
         String hoscode = (String) paramMap.get("hoscode");
         String signKey = hospitalSetService.getSignKey(hoscode);
 
+
         //3 把数据库查询签名进行MD5加密
         String signKeyMd5 = MD5.encrypt(signKey);
+
+
 
         //4 判断签名是否一致
         if (!hospSign.equals(signKeyMd5)) {
