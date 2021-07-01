@@ -1,7 +1,6 @@
 package com.atguigu.yygh.common.helper;
 
 import com.alibaba.fastjson.JSONObject;
-
 import com.atguigu.yygh.common.utils.HttpUtil;
 import com.atguigu.yygh.common.utils.MD5;
 import lombok.extern.slf4j.Slf4j;

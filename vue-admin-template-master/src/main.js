@@ -1,5 +1,5 @@
 import Vue from 'vue'
-
+import 'default-passive-events'
 import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 
 import ElementUI from 'element-ui'
@@ -15,7 +15,6 @@ import store from './store'
 
 import '@/icons' // icon
 import '@/permission' // permission control
-
 
 Vue.use(ElementUI, { locale })
 

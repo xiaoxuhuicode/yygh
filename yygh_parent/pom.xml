@@ -7,7 +7,6 @@
         <module>model</module>
         <module>service</module>
         <module>service_client</module>
-        <module>hospital-manage</module>
         <module>service_gateway</module>
     </modules>
     <parent>

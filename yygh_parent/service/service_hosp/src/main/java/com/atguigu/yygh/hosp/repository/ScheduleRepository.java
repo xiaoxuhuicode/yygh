@@ -9,7 +9,7 @@ import java.util.List;
 
 @Repository
 public interface ScheduleRepository extends MongoRepository<Schedule,String> {
-    //上传排班接口
+    //根据医院编号 和 排班编号查询
     Schedule getScheduleByHoscodeAndHosScheduleId(String hoscode, String hosScheduleId);
 
     //根据医院编号 、科室编号和工作日期，查询排班详细信息

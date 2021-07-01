@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-
 @RestController
 @RequestMapping("/admin/hosp/schedule")
 //@CrossOrigin
 public class ScheduleController {
+
     @Autowired
     private ScheduleService scheduleService;
 

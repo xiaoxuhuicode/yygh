@@ -1,8 +1,8 @@
 {
-  "name": "yygh-site",
+  "name": "p2p-site",
   "version": "1.0.0",
-  "description": "尚医通项目平台",
-  "author": "atguigu",
+  "description": "尚医通前端平台",
+  "author": "qy<493290402@qq.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,8 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "element-ui": "^2.15.3",
-    "nuxt": "^2.0.0"
+    "axios": "^0.19.2",
+    "element-ui": "^2.13.2",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "vue-qriously": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

@@ -13,6 +13,7 @@ import java.util.List;
 @RequestMapping("/admin/hosp/department")
 //@CrossOrigin
 public class DepartmentController {
+
     @Autowired
     private DepartmentService departmentService;
 

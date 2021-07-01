@@ -5,6 +5,7 @@ import com.atguigu.yygh.common.result.Result;
 import com.atguigu.yygh.model.cmn.Dict;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -12,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@Api(value = "数据字典接口")
+@Api(description = "数据字典接口")
 @RestController
 @RequestMapping("/admin/cmn/dict")
 //@CrossOrigin

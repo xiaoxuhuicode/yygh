@@ -10,6 +10,7 @@ import org.springframework.web.util.pattern.PathPatternParser;
 //处理跨域
 @Configuration
 public class CorsConfig {
+
     @Bean
     public CorsWebFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();

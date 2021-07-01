@@ -39,8 +39,8 @@ import java.util.Scanner;
 @Slf4j
 public class HospitalServiceImpl implements HospitalService {
 
-    @Autowired
-    private ScheduleMapper hospitalMapper;
+	@Autowired
+	private ScheduleMapper hospitalMapper;
 
     @Autowired
     private OrderInfoMapper orderInfoMapper;

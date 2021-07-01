@@ -8,10 +8,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @MapperScan("com.atguigu.yygh.cmn.mapper")
 public class CmnConfig {
-
-    //分页插件
+    /**
+     * 分页插件
+     */
     @Bean
-    public PaginationInterceptor paginationInterceptor(){
+    public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();
     }
 }
