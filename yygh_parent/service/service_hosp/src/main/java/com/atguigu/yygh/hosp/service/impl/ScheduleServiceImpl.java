@@ -270,17 +270,17 @@ public class ScheduleServiceImpl extends
         baseMap.put("bigname", department.getBigname());
         //科室名称
         baseMap.put("depname", department.getDepname());
-//月
+        //月
         baseMap.put("workDateString", new DateTime().toString("yyyy年MM月"));
-//放号时间
+        //放号时间
         baseMap.put("releaseTime", bookingRule.getReleaseTime());
-//停号时间
+        //停号时间
         baseMap.put("stopTime", bookingRule.getStopTime());
         result.put("baseMap", baseMap);
         return result;
     }
 
-    ////获取排班id获取排班数据
+    //获取排班id获取排班数据
     @Override
     public Schedule getScheduleId(String scheduleId) {
         Schedule schedule = scheduleRepository.findById(scheduleId).get();
